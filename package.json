@@ -4,9 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node ./app.js",    
     "test": "mocha"
   },
-  "start": "npm run build && node ./app.js",    
   "author": "",
   "license": "ISC",
   "dependencies": {
