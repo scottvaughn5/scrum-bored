@@ -1,0 +1,75 @@
+.active{
+    background-color: royalblue;
+}
+.btn.btn-default.nav-button{
+    color:lightcyan;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+.active:hover{
+    color:white;
+}
+#title > h1{
+    background-color: royalblue;
+    color: white; 
+    height: 10%;
+    margin-bottom: 0px;
+}
+#button-row{
+    background-color: cornflowerblue;
+    margin-bottom: 5%;
+}
+#content{
+    height: 100%;
+}
+
+.column-standard{
+    width: 45%;
+}
+.card{
+    width: 100%;
+    background-color: royalblue;
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: white;
+    align-items: center;
+}
+.card.inactive{
+    visibility: hidden;
+}
+.card > h5{
+    margin-left: 13px;
+}
+i.fa{
+    font-size: 1.5em;
+}
+.manage-users{
+    width: 80%;
+}
+.rounded-button{
+    margin-top: 20px;
+}
+.btn{
+    margin-right: 3%;
+}
+
+.rounded-button > i{
+    background-color: royalblue;
+    color: white;
+    padding: 9px;
+    margin-top: 5px;
+    border-radius: 100%;
+    border: 3px solid whitesmoke;
+}
+.rounded-button > i:hover{
+    background-color: cornflowerblue;
+    border: 5px solid whitesmoke;
+    padding: 12px;
+    margin-top: 0px;
+}
+.rounded-button > i:hover:active{
+    background-color:coral;
+    border: 0px solid whitesmoke;
+    margin-top: 7px;
+}

@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <script src="/jquery/jquery.js"></script>
+    <script src="/js/index.js"></script>
+    <script type="template" id="card-template">
+            <div class="card space-around flex row-flex" level="{{level}}" username="{{username}}">
+                    <span class="card-header">
+                        {{username}}
+                    </span>
+                    {{hasStatus}}
+                    <i class="fa fa-angle-right"></i>
+                </div>
+    </script>
+    <script type="template" id="status-template">
+        <i class="fa fa-address-card" onclick="pageModule.RenderUiPopup('{{status}}')"></i>
+    </script>
+    <script type="template" id="button-template">
+        <div class="rounded-button flex center">
+            <i class="fa fa-plus"></i>
+        </div>
+    </script>
+
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/flex.css" />
+    <link rel="icon" href="/icons/favicon.ico">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <title>ScrumBored</title>
+</head>
+
+<body>
+    <div id="title">
+        <h1>ScrumBored: <span id="indicator"></span></h1>
+    </div>
+    <nav id="button-row">
+        <button class="nav-button btn btn-default" target="scrum">
+            Scrum
+        </button>
+        <button class="nav-button btn btn-default" target="manage">
+            Users
+        </button>
+    </nav>
+    <div class="container space-around" id="content"></div>
+</body>
+
+</html>

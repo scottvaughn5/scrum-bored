@@ -1,0 +1,30 @@
+Project is to create a Daily Scrum Who Gone Manager
+Project will consist of 2 pages, an API, and a text based database
+    Page 1: Who Gone Board
+        Page will include 2 columns
+            - On the left will be a list of members of the team. 
+              All cards will be on left on page load.
+            - Cards have icon to toggle who's is present on and off changing color of the card
+            - Cards have a "move to other list" button to move to other list
+            - columns should be in alphabetical order
+    Page 2: Team Manager
+        Page will include list of cards
+            - Cards will have text input for name and all changes will be saved
+            - New cards may be created and edited
+            - Cards may be deleted 
+    API: Content provider
+        - You will write API endpoints to
+            - Get a sorted array of scrum members from database
+            - Save an array of scrum members from database
+    DATABASE: Challenge mode
+        - You are to write a "database" that reads and writes a text file.
+        - The database will 
+            - Save individual entries
+            - Delete individual entries
+            - Read individual entries
+            - Update individual entries
+            - Read all entries
+    
+
+        
+            

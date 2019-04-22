@@ -1,0 +1,14 @@
+TODO
+- Write Database
+    - Select
+        - all
+        - specific
+    - Update
+        - all
+        - specific
+    - Destroy
+        - all 
+        - specific
+    - Create
+        - specific
+
