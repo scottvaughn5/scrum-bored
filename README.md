@@ -1,4 +1,4 @@
 # scrum-bored
-Demo of the app I will be guiding a aspiring developer through to practice. Played with a lot of new concepts and ideas in development. Eventually will refactor to use the nodejsondb but for now solid demo
+Demo of the app I will be guiding a aspiring developer through to practice. No built to be the best application just something that is fun and works
 
 https://scrum-bored.herokuapp.com/
